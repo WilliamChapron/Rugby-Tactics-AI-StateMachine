@@ -1,0 +1,52 @@
+{
+    "name": "VersusFight-Rugby_AI",
+    "folder": "VersusFight-Rugby_AI/",
+    "vc_project_version": "17.0",
+    "root_namespace": "GDISFML",
+    "windows_target_platform_version": "10.0",
+    "configuration": [
+        {
+            "additional_dependencies": "sfml-system-s-d.lib;sfml-window-s-d.lib;sfml-graphics-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;%(AdditionalDependencies)",
+            "additional_include_directories": "$(ProjectDir)..\\..\\..\\SFML-2.6.1\\include",
+            "additional_library_directories": "$(ProjectDir)..\\..\\..\\SFML-2.6.1\\lib",
+            "character_set": "Unicode",
+            "conformance_mode": "true",
+            "generate_debug_information": "true",
+            "int_dir": "$(ProjectDir)Build\\$(Configuration)\\intermediate\\",
+            "language_standard": "stdcpp20",
+            "name": "SFML Debug|x64",
+            "out_dir": "$(ProjectDir)Build\\$(Configuration)\\",
+            "platform_toolset": "v143",
+            "precompiled_header": "Use",
+            "precompiled_header_file": "pch.h",
+            "preprocessor_definitions": "SFML_MODE;SFML_STATIC;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)",
+            "sdl_check": "true",
+            "subsystem": "Windows",
+            "type": "Application",
+            "use_debug_libraries": "true",
+            "warning_level": "Level3"
+        },
+        {
+            "additional_dependencies": "sfml-system-s.lib;sfml-window-s.lib;sfml-graphics-s.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;%(AdditionalDependencies)",
+            "additional_include_directories": "$(ProjectDir)..\\..\\..\\SFML-2.6.1\\include",
+            "additional_library_directories": "$(ProjectDir)..\\..\\..\\SFML-2.6.1\\lib",
+            "character_set": "Unicode",
+            "conformance_mode": "true",
+            "generate_debug_information": "false",
+            "int_dir": "$(ProjectDir)Build\\$(Configuration)\\intermediate\\",
+            "language_standard": "stdcpp20",
+            "name": "SFML Release|x64",
+            "out_dir": "$(ProjectDir)Build\\$(Configuration)\\",
+            "platform_toolset": "v143",
+            "precompiled_header": "Use",
+            "precompiled_header_file": "pch.h",
+            "preprocessor_definitions": "SFML_MODE;SFML_STATIC;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)",
+            "sdl_check": "true",
+            "subsystem": "Windows",
+            "type": "Application",
+            "use_debug_libraries": "false",
+            "warning_level": "Level3"
+        }
+
+    ]
+}

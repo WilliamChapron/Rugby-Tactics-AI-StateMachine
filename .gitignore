@@ -1,0 +1,22 @@
+
+*.vsidx
+GDISFML/ide/vs/GDISFML/Build/Debug/intermediate/GDISFML.pch
+GDISFML/ide/vs/.vs/GDISFML/v17/ipch/21f67ec307f141a2.ipch
+GDISFML/ide/vs/.vs/GDISFML/v17/ipch/7af1f9d07c8792b6.ipch
+GDISFML/ide/vs/.vs/GDISFML/v17/Browse.VC.opendb
+*.ipch
+*.pch
+ide/vs/GDISFML/Build/SFML Debug/intermediate/vc143.pdb
+ide/vs/GDISFML/Build/SFML Debug/intermediate/vc143.idb
+ide/vs/GDISFML/Build/SFML Debug/intermediate/main.obj
+ide/vs/GDISFML/Build/SFML Debug/intermediate/GDISFML.tlog/link.read.1.tlog
+ide/vs/GDISFML/Build/SFML Debug/intermediate/GDISFML.log
+ide/vs/GDISFML/Build/SFML Debug/intermediate/GDISFML.ilk
+ide/vs/GDISFML/Build/SFML Debug/GDISFML.pdb
+ide/vs/GDISFML/Build/SFML Debug/GDISFML.exe
+ide/vs/.vs/GDISFML/v17/DocumentLayout.json
+ide/vs/.vs/GDISFML/v17/DocumentLayout.backup.json
+ide/vs/.vs/GDISFML/v17/Browse.VC.db
+ide/vs/.vs/GDISFML/v17/.suo
+ide/*
+*.pdb
